@@ -315,6 +315,21 @@ nav ul li a:hover::after {
     text-decoration: none; /* Remove underline */
     border: 1px solid #0a21d3; /* Remove border */
     display: inline-block; /* Keep it inline with other elements */
+    word-wrap: break-word;
+    text-align: center;
+  }
+
+
+
+  @media (max-width: 600px) {
+    .btn-download {
+      display: block;
+      width: 100%;
+      box-sizing: border-box;
+      font-size: 16px;
+      padding: 12px;
+      margin: 10px 0;
+    }
   }
   
   .btn-download:hover {
@@ -463,6 +478,10 @@ form input,form textarea{
         font-size: 12px;
         padding: 10px;
     }
+    .bt-download {
+        font-size: 12px;
+        padding: 10px;
+    }
 
     .social-links {
         flex-direction: column;
@@ -489,6 +508,11 @@ form input,form textarea{
     }
 
     .btn {
+        font-size: 10px;
+        padding: 8px 10px;
+    }
+
+    .btn-download {
         font-size: 10px;
         padding: 8px 10px;
     }
