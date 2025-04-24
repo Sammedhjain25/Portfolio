@@ -1,0 +1,267 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal protfolio website</title>
+    
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    
+    
+    <link rel="stylesheet" href="style.css">
+    
+
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            
+        
+          <nav>
+            <!-- <img src="images/logo.jpg" class="logo" alt="Logo"> -->
+            <div class="menu-icon" onclick="toggleMenu()">&#9776;</div> <!-- Hamburger icon -->
+            <ul id="nav-links">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+          <div class="header-text">
+            
+            <h1>Hi,I'm <span>Sammedh</span> </h1>
+            <p>I am currently a B.E Student at Mysore University School of Engineering </p>
+          </div>
+        </div>
+    </div>
+  <!--ABOUT SECTION-->
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col1">
+            <img src="images/sammedhabout.jpg" class="img">
+          </div>
+          <div class="about-col2">
+            <h1>About Me</h1>
+            <p>
+              "Hi, I'm Sammedh Jain,an Enthusiastic and detail-oriented Computer Science student with a
+              strong foundation in programming and web development. Proficient in
+              languages such as C, C++, Python, and JavaScript, with expertise in
+              crafting responsive and user-friendly web applications using Python Django for backend and HTML,
+              CSS, and modern front-end frameworks. Passionate about solving
+              complex problems, enhancing user experiences, and staying updated
+              with emerging technologies. A motivated team player with a proven
+              ability to learn quickly and adapt to dynamic environments, seeking
+              opportunities to contribute to innovative projects and grow as a
+              developer."
+
+            </p>
+            <div class="tab-titles">
+              <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+              <p class="tab-links" onclick="opentab('Education')">Education</p>
+              
+            </div>
+            <div class="tab-content active-tab" id="Skills">
+              <ul>
+                <li><span>Frontend web Development</span><br>Html <br>Html 5 <br>CSS <br>JavaScript </li>
+                <li><span>Programming languages</span><br>C <br>C++ <br>Python</li>
+                <li><span>Backend web Development</span><br>Python Django </li>
+                
+                <li><span>Data Structures(intermediate)</span></li>
+                
+              </ul>
+            </div>
+            <div class="tab-content" id="Education">
+              <ul>
+                <li><span>St Joseph's School</span>(2020) <br>CBSE board(88.8%)</li>
+                <li><span>Seshadripuram Independent PU College</span>(2022) <br>PUC State Board(80.16%)</li>
+                <li><span>Mysore University School Of Engineering</span> <br>B.E-I Sem(8.75cgpa ) <br>B.E-II Sem(9.4cgpa) <br>B.E-III Sem(9.227cgpa) <br>B.E-IV Sem(9.682cgpa)</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!---------portfolio-->
+    <div id="portfolio">
+      <div class="container">
+        <h1>My work</h1>
+        <div class="worklist">
+          <!-- Third Project -->
+          <div class="work">
+            <!-- <img src="https://plus.unsplash.com/premium_photo-1681487906725-ecd65970ac66?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt=""> -->
+           <img src="images/motocyclespare.avif" alt="">
+            <div class="layer">
+              <h3>FullStack Motorcycle spares website</h3>
+              <p> A sleek and responsive frontend website for motorcycle spares,
+                designed with HTML, CSS, JavaScript and Django for backend offering an intuitive
+                interface for browsing and purchasing parts.</p>
+              <a href="https://github.com/Sammedhjain25/CSS-HTML-JS--project.git">View</a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="images/istockphoto.jpg" alt="">
+            <div class="layer">
+              <h3>Automotive Website</h3>
+              <p>This project is an online platform offering premium car detailing services, specializing in restoring and enhancing vehicle aesthetics.
+
+              </p>
+              <a href="https://github.com/Rakshithagowda-G/e-chatbot.git">View</a>
+            </div>
+          </div>
+          <!-- First Project -->
+          <div class="work">
+            <img src="images/hadas.jpg" alt="">
+            <div class="layer">
+              <h3>Highway Accidents Detection Alarm System<br></h3>
+              <p> The Highway Accidents Detection Alarm System (HADAS) offers a cutting-edge approach to highway safety by leveraging advanced technologies for real-time accident detection.</p>
+              <a href="images\Innovation and  Design Thinking Project on HaDas.pdf">HADAS</a>
+            </div>
+          </div>
+          <!-- Second Project
+          <div class="work">
+            <img src="images/work2.jpg" class="image">
+           
+            <div class="layer">
+              <h3>Highway Accidents Detection Alarm System</h3>
+              <p>The Highway Accidents Detection Alarm System (HADAS) offers a cutting-edge approach to highway safety by leveraging advanced technologies for real-time accident detection.</p>
+              <a href="images/Innovation and  Design Thinking Project on HaDas.pdf">Alarm</a>
+            </div>
+          </div> -->
+          
+          <!-- Fourth Project -->
+          
+        </div>
+        <a href="" class="btn">See More</a>
+      </div>
+    </div>
+    
+<!----------contact-------------- --> 
+<!-- <div id="contact">
+  <div class="container">
+    <div class="row">
+      <div class="contact-left">
+        <h1 class="sub-title">Contact me</h1>
+        <p>rakshithag043@gmail.com</p>
+       
+        <p>8217586504</p>
+
+
+
+        <a href="Portfolio/images/Rakshitha.G Rsume1pdf.pdf"Download class="btn btn3">Download CV</a>
+        <div class="social-links">
+          <a href="https://www.instagram.com/yourusername" target="_blank" class="social-icon">
+            <i class="fab fa-instagram"></i>
+          </a>
+          <a href="https://www.linkedin.com/in/yourusername" target="_blank" class="social-icon">
+            <i class="fab fa-linkedin"></i>
+          </a>
+          <a href="https://github.com/yourusername" target="_blank" class="social-icon">
+            <i class="fab fa-github"></i>link
+          </a>
+        </div>
+        
+        
+      </div>
+        
+    
+      <div class="contact-right">
+        <form name="submit-to-google-sheet">
+          <input type="text" name="name" placeholder="your name" required>
+          <input type="email" name="Email" placeholder="Your Email" required>
+          <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+          <button type="submit" class="btn btn2">Submit</button>
+
+        </form>
+      </div>
+    </div>
+  </div>
+</div> 
+</div> -->
+<div id="contact">
+  <div class="container">
+    <div class="row">
+      <div class="contact-left">
+        <h1 class="sub-title">Contact Me</h1>
+        <p>sammedhjain25@gmail.com</p>
+        
+       
+
+
+        <!-- Social Media Icons -->
+        <div class="social-links">
+          <a href="https://www.instagram.com/ignition_breaker_200?igsh=MWQ0d29hMXdvdmNxNg==" target="_blank" class="social-icon">
+            <i class="fab fa-instagram"></i>
+          </a>
+          <a href="https://www.linkedin.com/in/sammedh-jain-589b22267?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" class="social-icon">
+            <i class="fab fa-linkedin"></i>
+          </a>
+          <a href="https://github.com/Sammedhjain25" target="_blank" class="social-icon">
+            <i class="fab fa-github"></i>
+          </a>
+        </div>
+      </div>
+
+
+      <div id="resume">
+        <a href="images\Resume 1.pdf" download class="btn btn3 btn-download">Download CV</a>
+      </div>
+
+      <div class="contact-right">
+        <form name="submit-to-google-sheet">
+
+          <p>Drop a message below ↓</p>
+          <input type="text" name="name" placeholder="Your Name" required>
+          <input type="email" name="Email" placeholder="Your Email" required>
+          <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+          <button type="submit" class="btn btn2">Submit</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="Copyright">Copyright@Sammedh.portfolio website</div> 
+<script>
+  function toggleMenu() {
+      const navLinks = document.getElementById('nav-links');
+      navLinks.classList.toggle('show'); // Toggle the 'show' class to display the menu
+  }
+</script>
+
+ 
+<script>
+  var tablinks=document.getElementsByClassName("tab-links")
+  var tabcontents=document.getElementsByClassName("tab-content")
+  function opentab(tabname)
+  {
+    for(tablink of tablinks){
+      tablink.classList.remove("active-link")
+    }
+    for(tabcontent of tabcontents){
+      tabcontent.classList.remove("active-tab")
+    }
+    event.currentTarget.classList.add("active-link")
+    document.getElementById(tabname).classList.add("active-tab")
+  }
+</script>
+<script>
+  
+  const scriptURL =' https://script.google.com/macros/s/AKfycbw0I4gY67OvAGvCsN4RRpiTcLMLn6rS4W5pCUtLcPEhZ9bunqsN8h7RWTkfiEcBv3hqHA/exec'
+  const form = document.forms['submit-to-google-sheet']
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => console.log('Success!', response))
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+
+        
+        
+</body>
+</html>
